@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InheritanceEnemy : Enemy
+public class InheritanceEnemy : Enemy // INHERITANCE
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

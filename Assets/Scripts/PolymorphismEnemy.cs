@@ -19,7 +19,7 @@ public class PolymorphismEnemy : Enemy
         }
     }
 
-    public override void Move()
+    public override void Move() // POLYMORPHISM
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -28,7 +28,7 @@ public class PolymorphismEnemy : Enemy
         transform.Translate(move * moveSpeed * Time.deltaTime);
     }
 
-    public override void Jump()
+    public override void Jump() // POLYMORPHISM
     {
         if (Rb != null)
         {
